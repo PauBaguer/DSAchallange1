@@ -12,7 +12,7 @@ public class GestorFiguras {
     }
 
     public static void sort(Figura[] o){
-        Arrays.sort(o, Figura::compareTo);
+        Arrays.sort(o);
     }
 
     public static void prettyPrint(Figura[] o){
